@@ -1,0 +1,32 @@
+{
+  "name": "sails-generate-fullmodel",
+  "version": "0.10.2",
+  "description": "sails generate fullmodel",
+  "main": "Generator.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "awesome",
+    "generator",
+    "sails",
+    "generate",
+    "plugin"
+  ],
+  "author": "w4rlock",
+  "license": "MIT",
+  "dependencies": {
+  	"lodash": ">=2.4.x",
+  	"merge-defaults": ">=0.1.0"
+  },
+  "devDependencies": {
+    "sails-generate": "*",
+    "reportback": "*",
+    "fs-extra": "*"
+  },
+  "sailsGenerator": {
+    "type": "awesome",
+    "behavior": "overrides `sails generate fullmodel`",
+    "sailsVersion": "~0.10.0"
+  }
+}
