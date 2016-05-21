@@ -78,7 +78,7 @@ module.exports = {
       //car:model:cars
       var name = arr[0];
       var type = (arr.length == 3) ? arr[1] : 'type';
-      var ref = (arr.length == 3) ? arr[2] : arr[1];
+      var ref = (arr.length == 3) ? arr[2] : arr[1].toLowerCase();
 
       res+= name + ': { ' + type + ': \'' + ref + '\' } '
 
